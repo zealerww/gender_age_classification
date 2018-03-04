@@ -15,11 +15,11 @@ Dataset: [Adience Benchmark](https://www.openu.ac.il/home/hassner/Adience/data.h
 3. using bathnormalization, change activation function
 4. using pre-trained VGG face network and fine tune fully connected layers
 
-model_origin get 85.9% accuracy in gender and 49.5% in age.
+model_origin get **85.9%** accuracy in gender and **49.5%** in age.
 
-Replacing the model_origin with inception-like/resnet-like netowork don't get significant improvement. Using selu as the activation function can get 2% improvement in gender estimation.
+Replacing the model_origin with inception-like/resnet-like netowork don't get significant improvement. Using selu as the activation function can get **2% improvement** in gender estimation.
 
-VGG face network is a network for face recogniton, I use it as a face feature extractor. It is a good base model. Using pre-trained conv layers of VGG face network and fine-tuning fully connected layers gets 91% accuracy in gender and 55% in age.
+VGG face network is a network for face recogniton, I use it as a face feature extractor. It is a good base model. Using pre-trained conv layers of VGG face network and fine-tuning fully connected layers gets **91%** accuracy in gender and **55%** in age.
 
 You get get pre-trained VGG face network weight [here](https://pan.baidu.com/s/1F3d1pXROnvTjebSI4fxUmw)
 
