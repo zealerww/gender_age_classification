@@ -1,4 +1,4 @@
-# Gnder and Age Classification
+# Gender and Age Classification
 
 Using conv network to classify gender and age.
 
