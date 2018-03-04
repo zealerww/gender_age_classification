@@ -1,0 +1,78 @@
+Experiments of gender recognition
+
+-------------------------------------------------
+test1
+cnn_model.net_paper
+
+Adam(0.0005)
+data argumation: bright/contrast/flip
+dropout rate: 0.5
+
+1277/1472=0.8675
+-------------------------------------------------
+test2
+cnn_model.net_paper
+
+Adam(0.0005)
+data argumation: roate/bright/contrast/flip/
+dropout rate: 0.5
+
+steps 9k
+1262/1472=0.8573
+------------------------------------------------
+test3
+cnn_model.net_paper
+
+Adam(0.0005)
+data argumation: roate/bright/contrast/flip/
+dropout rate: 0.5
+l2 regularization: 0.0001
+
+steps 9k
+1262/1472=0.8573
+------------------------------------------------
+test4
+net resnet
+
+Adam(0.0005)
+data argumation: roate/bright/contrast/flip/
+
+steps 8k
+1257/1472=0.85394
+------------------------------------------------
+test5
+cnn_model.net_paper
+
+Adam(0.0005)
+data argumation: roate/bright/contrast/flip/
+
+activation: selu
+
+steps 8k
+1290/1472=0.876
+-------------------------------------------------
+test6
+cnn_model.net_paper
+
+Adam(0.0005)
+data argumation: roate/bright/contrast/flip/
+
+activation: leaky relu
+
+steps 11k
+1284/1472= 0.872
+-------------------------------------------------
+test7
+vgg face, fine tune
+
+Adam(0.005)
+data argumation: roate/bright/contrast/flip/
+
+easy to get 0.91
+single crop: 0.91; 5-crop/10-crop: 0.914
+-------------------------------------------------
+
+
+
+
+
