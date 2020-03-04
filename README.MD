@@ -21,7 +21,7 @@ Replacing the model_origin with inception-like/resnet-like netowork don't get si
 
 VGG face network is a network for face recogniton, I use it as a face feature extractor. It is a good base model. Using pre-trained conv layers of VGG face network and fine-tuning fully connected layers gets **91%** accuracy in gender and **55%** in age.
 
-You get get pre-trained VGG face network weight [here](https://pan.baidu.com/s/1F3d1pXROnvTjebSI4fxUmw)
+You get get pre-trained VGG face network weight [here](https://drive.google.com/file/d/1swNHi9XMh0GJs8eBEhw2xjCAN07JjfT9/view?usp=sharing)
 
 ## Others
 
